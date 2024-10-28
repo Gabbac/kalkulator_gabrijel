@@ -1,4 +1,4 @@
-import BatteryCalculator from './BatteryCalculator';
+import BatteryCalculator from './kalkulator';
 
 function App(){
   return(

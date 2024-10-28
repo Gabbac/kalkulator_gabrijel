@@ -31,3 +31,57 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+.title{
+  font-size: 1.5em;
+  text-align: center;
+  color: #333;
+}
+.label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.input{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button{
+  padding: 10px;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button:hover{
+  background-color: #45a049;
+}
+.result{
+  margin-top: 20px;
+  text-align: center;
+}
+.resultText{
+  font-size: 1.2em;
+  color: #333;
+}
+.error{
+  color: red;
+  font-size: 0.9em;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
